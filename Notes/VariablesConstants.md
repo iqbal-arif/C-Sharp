@@ -18,3 +18,22 @@ Number is the identifier for our variable. We can optionally set the value of a 
 **int number = 5**;
 
 ***Remember: in C#, you cannot read the value of a variable unless you have set it before.***
+
+
+*** Varialbe Constant Declaration***
+1. Data Type needed
+2. An Identifier (name of the variable or const).
+    a. Idenfifier cannot start with number, eg., 1route ---- oneRoute
+    b. Idenfifier Cannot include space in name, eg., first name ----- firstName
+    c. Idenfifier Cannot be a reserved keyword, eg., int ------ @int
+    d. Idenfifier must have a meningful name, eg., fn ------ firstName
+    e. Name Convetions:
+        1. Camel Case: firstName, eg., int number;
+        2. Pascal Case: FirstName, eg., const int MaxZoom = 5;
+        3. Hungarian Notation: strFirstName
+3. Initializer (the value for variable & const)
+
+***Real Nubmers***
+**double** is the Default Data Type used in C-Sharp Complier.
+**float** define as float number = 1.2f;
+**decimal** define as decimal number  = 1.2m;
