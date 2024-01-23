@@ -33,7 +33,3 @@ Number is the identifier for our variable. We can optionally set the value of a 
         3. Hungarian Notation: strFirstName
 3. Initializer (the value for variable & const)
 
-***Real Nubmers***
-**double** is the Default Data Type used in C-Sharp Complier.
-**float** define as float number = 1.2f;
-**decimal** define as decimal number  = 1.2m;
