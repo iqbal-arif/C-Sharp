@@ -112,6 +112,22 @@ namespace HelloWorld
                 Console.WriteLine($"The String could not be conveted to a Boolean Because the stringValue is not True or False.");
             }
 
+            //Arithmatic Operator
+            var p = 10;
+            var q = 3;
+            var c = 5;
+
+            Console.WriteLine(p+q);
+            Console.WriteLine(p/q); //sigle digit number
+            Console.WriteLine((float)p / (float)q); //floating casting will give decimal values
+
+            Console.WriteLine(p + q * c); //Arithmatic law applies PEMDAS
+
+            Console.WriteLine(p != q);    //True
+            Console.WriteLine(!(p != q)); //False : can convert to (p == q) same result
+            Console.WriteLine(p > c && p > q);
+            Console.WriteLine(p > c && p == q);
+            Console.WriteLine(p > c || p == q);
         }
     }
 }
