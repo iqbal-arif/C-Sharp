@@ -1,0 +1,15 @@
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Concept\nonPrimitiveTypes\bin\Debug\net8.0\nonPrimitiveTypes.exe
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Concept\nonPrimitiveTypes\bin\Debug\net8.0\nonPrimitiveTypes.deps.json
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Concept\nonPrimitiveTypes\bin\Debug\net8.0\nonPrimitiveTypes.runtimeconfig.json
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Concept\nonPrimitiveTypes\bin\Debug\net8.0\nonPrimitiveTypes.dll
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Concept\nonPrimitiveTypes\bin\Debug\net8.0\nonPrimitiveTypes.pdb
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Concept\nonPrimitiveTypes\obj\Debug\net8.0\nonPrimitiveTypes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Concept\nonPrimitiveTypes\obj\Debug\net8.0\nonPrimitiveTypes.AssemblyInfoInputs.cache
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Concept\nonPrimitiveTypes\obj\Debug\net8.0\nonPrimitiveTypes.AssemblyInfo.cs
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Concept\nonPrimitiveTypes\obj\Debug\net8.0\nonPrimitiveTypes.csproj.CoreCompileInputs.cache
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Concept\nonPrimitiveTypes\obj\Debug\net8.0\nonPrimitiveTypes.sourcelink.json
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Concept\nonPrimitiveTypes\obj\Debug\net8.0\nonPrimitiveTypes.dll
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Concept\nonPrimitiveTypes\obj\Debug\net8.0\refint\nonPrimitiveTypes.dll
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Concept\nonPrimitiveTypes\obj\Debug\net8.0\nonPrimitiveTypes.pdb
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Concept\nonPrimitiveTypes\obj\Debug\net8.0\nonPrimitiveTypes.genruntimeconfig.cache
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Concept\nonPrimitiveTypes\obj\Debug\net8.0\ref\nonPrimitiveTypes.dll
