@@ -69,3 +69,88 @@ A6: True;
 Good job!
 A logical OR between true and false results in true.
 
+**Non-Primitive**
+
+Question 1: What is the correct way to declare an int array?
+A1: int[] nubmers = new int[3];
+
+Q2: What would be the output of this code?
+
+var array1 = new int[3] { 1, 2, 3 };
+
+var array2 = array1;
+
+array2[0] = 0;
+
+Console.WriteLine(array1[0]);
+
+A2: 0
+Good job!
+Arrays are reference types. So here, both array1 and array2 are referencing the same object in the memory. Any changes applied via array2 (note line 3), will be visible via array1 reference.
+
+Q3: How can we access the first element in this array?
+
+var numbers = new int[3] { 1, 2, 3 };
+
+A3: numbers[0]
+Good job!
+Arrays in C# are zero-indexed, so the index of the first element is 0.
+
+Q4: We have a class as follows:
+public class Point
+
+{
+public int X;
+public int Y;
+}
+
+How can we create an object of type Point?
+A4: Point p = new Point();
+
+Q5: We have a TaxCalculator class as follows. How can we call the Calculate method?
+
+public class TaxCalculator
+{
+public static float Calculate()
+{
+}
+}
+A5: TaxCalculator.Calculate();
+Good job!
+The method is declared as static so it is only accessible via a class reference. 
+
+Q6: The \n escape character in a string represents: 
+A6:  A line-break or a new line.
+
+Q7: What would be the result of this program?
+
+var number1 = 1;
+
+var number2 = number1;
+
+number2++;
+
+Console.WriteLine(number1);
+
+A7: 1
+Good job!
+Both number1 and number2 are integers and they are value types. So they will be two independent values in the memory. Modifying number2 does not affect number1.
+
+Q8: We have an enum as follows:
+
+public enum CustomerType
+{
+Bronze,
+Silver,
+Gold
+}
+
+What will be the output of this code?
+
+var type = (int)CustomerType.Bronze;
+
+Console.WriteLine(type):
+
+A8: 0
+Good job!
+Enums are internally integers. The value of the first member of an enum (if not set) is 0.
