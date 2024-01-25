@@ -154,3 +154,32 @@ Console.WriteLine(type):
 A8: 0
 Good job!
 Enums are internally integers. The value of the first member of an enum (if not set) is 0.
+
+**Iteration**
+
+Q1: What is the correct syntax to check if number is not 0? 
+A1: if (number != 0)
+Good job!
+Condition should be enclosed with parentheses. 
+
+Q2: Which answer correctly demonstrates the use of for loop to get the numbers 1 to 10?
+A2: for (var number = 1; nubmer <= 10; number ++>)
+
+Q3: var cities = new string[] { "Melbourne", "Sydney", "Brisbane" };
+
+What is the correct syntax to iterate over cities using a foreach block?
+
+A3: foreach (var city in cities)
+
+Q4: How many times will this while loop execute?
+
+var numbers = 0;
+
+while (numbers < 5)
+{
+numbers += 2;
+}
+
+A4: 3
+Good job!
+The first time number is 0, so it's less than 5. Then, it'll be incremented by 2, so it's still less than 5. Next, it'll be 4, so the loop be executed one more time. Finally, it becomes 6 and because it's greater than 5, the loop will not be executed.
