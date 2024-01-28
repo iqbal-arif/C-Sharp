@@ -31,3 +31,12 @@ array[2] = new int[3];
 
 //Accessing the value
 var array[0][0] = 1;
+
+**Methods of Array**
+
+Length
+Clear()
+Copy()
+IndexOf()
+Reverse()
+Sort()
