@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("nonPrimitiveTypes")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c45a4510f541fb1c81cd850c14cf5da2f1d79365")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5f38ec993e7fce7913e1bf9b5a1419dd385f3c87")]
 [assembly: System.Reflection.AssemblyProductAttribute("nonPrimitiveTypes")]
 [assembly: System.Reflection.AssemblyTitleAttribute("nonPrimitiveTypes")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
