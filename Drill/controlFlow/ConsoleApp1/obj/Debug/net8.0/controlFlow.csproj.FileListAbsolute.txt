@@ -1,0 +1,15 @@
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Drill\controlFlow\ConsoleApp1\bin\Debug\net8.0\controlFlow.exe
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Drill\controlFlow\ConsoleApp1\bin\Debug\net8.0\controlFlow.deps.json
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Drill\controlFlow\ConsoleApp1\bin\Debug\net8.0\controlFlow.runtimeconfig.json
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Drill\controlFlow\ConsoleApp1\bin\Debug\net8.0\controlFlow.dll
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Drill\controlFlow\ConsoleApp1\bin\Debug\net8.0\controlFlow.pdb
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Drill\controlFlow\ConsoleApp1\obj\Debug\net8.0\controlFlow.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Drill\controlFlow\ConsoleApp1\obj\Debug\net8.0\controlFlow.AssemblyInfoInputs.cache
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Drill\controlFlow\ConsoleApp1\obj\Debug\net8.0\controlFlow.AssemblyInfo.cs
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Drill\controlFlow\ConsoleApp1\obj\Debug\net8.0\controlFlow.csproj.CoreCompileInputs.cache
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Drill\controlFlow\ConsoleApp1\obj\Debug\net8.0\controlFlow.sourcelink.json
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Drill\controlFlow\ConsoleApp1\obj\Debug\net8.0\controlFlow.dll
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Drill\controlFlow\ConsoleApp1\obj\Debug\net8.0\refint\controlFlow.dll
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Drill\controlFlow\ConsoleApp1\obj\Debug\net8.0\controlFlow.pdb
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Drill\controlFlow\ConsoleApp1\obj\Debug\net8.0\controlFlow.genruntimeconfig.cache
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Drill\controlFlow\ConsoleApp1\obj\Debug\net8.0\ref\controlFlow.dll
