@@ -82,7 +82,7 @@ between 1 and 100 are divisible by 3 with no remainder App!\n");
 
                     Console.WriteLine($"The Total count%3 == 0 is : {divisibleBy3}");
             */
-
+            
             Console.WriteLine("\n*-*-*-*-*-*-*-*-*-*-*-*-*-*\n");
             Console.WriteLine(@"6 - Write a program and continuously ask the user to
 enter a number or ""ok"" to exit. Calculate the sum of all the previously entered
@@ -92,18 +92,21 @@ numbers and display it on the console.\n");
             
            // int count = 0;
            // var inputSum = new int[25];
+           
+           //While loop with Summation
+
             int sum = 0;
             while (true)
             {
                 Console.WriteLine("Enter a Number or OK to Exit!!");
-                var input = Console.ReadLine();
+                var input2 = Console.ReadLine();
                 
-                Console.WriteLine(@"You Entered : " + input);
+                Console.WriteLine(@"You Entered : " + input2);
                    
-                if (String.IsNullOrWhiteSpace(input)) // if there is an input due !
+                if (String.IsNullOrWhiteSpace(input2)) // if there is an input due !
                 {
                   continue;
-                } else if (input.ToUpper() == "OK")
+                } else if (input2.ToUpper() == "OK")
                 {
 
                     break;
@@ -113,10 +116,11 @@ numbers and display it on the console.\n");
                    /* inputSum[count] = Convert.ToInt32(input);
                     sum = sum + inputSum[count];*/
 
-                    sum = sum + Convert.ToInt32(input);
-                    //Console.WriteLine("Your Entered Number Summation is : " + inputSum.Sum());
-                    Console.WriteLine("Your Entered Number Summation is : " + sum);
+                   // sum = sum + Convert.ToInt32(input); // summation
+                    //Console.WriteLine("Your Entered Number Summation is : " + inputSum.Sum()); // goes with array
+                  //  Console.WriteLine("Your Entered Number Summation is : " + sum); //summation
             }
+           
             /*
              //Do While Loop Alternate to While Loop
             string input2;
@@ -138,17 +142,69 @@ numbers and display it on the console.\n");
             */
 
             /*
+             Console.WriteLine("\n*-*-*-*-*-*-*-*-*-*-*-*-*-*\n");
+             Console.WriteLine(@"7 - Write a program and ask the user to enter a series of numbers
+ separated by comma. Find the maximum of the numbers and display it on the console. For example,
+ if the user enters “5, 3, 8, 1, 4"", the program should display 8.\n");
+             Console.WriteLine("*-*-*-*-*-*-*-*-*-*-*-*-*-*\n");
+
+             Console.WriteLine("Enter a Number to Compute the Factorial!!");
+             int inputFactorial = Convert.ToInt32(Console.ReadLine());
+             int factorial=1;
+             for(int i = inputFactorial; i >= 1; i--) {
+                 factorial = factorial * i;
+
+             }
+                 Console.WriteLine(factorial);
+            */
+            /*
             Console.WriteLine("\n*-*-*-*-*-*-*-*-*-*-*-*-*-*\n");
-            Console.WriteLine(@"8 - Write a program and continuously ask the user to
-enter a number or ""ok"" to exit. Calculate the sum of all the previously entered
-numbers and display it on the console.\n");
+            Console.WriteLine(@"8 - Write a program that picks a random number between 1 and 10.
+Give the user 4 chances to guess the number. If the user guesses the number, display “You won"";
+otherwise, display “You lost"". (To make sure the program is behaving correctly, you can display
+the secret number on the console first.)\n");
             Console.WriteLine("*-*-*-*-*-*-*-*-*-*-*-*-*-*\n");
 
+            Random random = new Random();
+
+            int guessNumber = 0;
+
+            for (; guessNumber != 100;)
+            {
+                int randomNumber = random.Next(1,10);
+                Console.WriteLine("Enter Random Number or 100 to EXIT\n");
+                guessNumber = Convert.ToInt32(Console.ReadLine());
+               // Console.WriteLine($"Guess Number: {guessNumber}");
+                if (randomNumber == guessNumber)
+                {
+                    Console.WriteLine("You Won\n");
+                }
+                else
+                {
+                    Console.WriteLine("You Lost\n");
+                }
+            }
             */
-            int speed = 65;
-            double specified = (int) speed;
-            Console.WriteLine(specified);
+            Console.WriteLine("\n*-*-*-*-*-*-*-*-*-*-*-*-*-*\n");
+            Console.WriteLine(@"9 -  Write a program and ask the user to enter a series of numbers
+separated by comma. Find the maximum of the numbers and display it on the console. For example,
+if the user enters “5, 3, 8, 1, 4"", the program should display 8.\n");
+            Console.WriteLine("*-*-*-*-*-*-*-*-*-*-*-*-*-*\n");
+
+            var inputSeries = new string[25];
+
+            string input="";
+            for (int i = 0; i < 20; i++)
+            {
+                //input = Convert.ToInt32(Console.ReadLine());
+                input = (Console.ReadLine());
+                inputSeries[i] = (input);
+            }
+                Console.WriteLine(inputSeries);
+
 
         }
+
+
     }
 }
