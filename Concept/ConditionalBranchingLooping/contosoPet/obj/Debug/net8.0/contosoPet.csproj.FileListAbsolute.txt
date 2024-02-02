@@ -1,0 +1,15 @@
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Concept\ConditionalBranchingLooping\contosoPet\bin\Debug\net8.0\contosoPet.exe
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Concept\ConditionalBranchingLooping\contosoPet\bin\Debug\net8.0\contosoPet.deps.json
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Concept\ConditionalBranchingLooping\contosoPet\bin\Debug\net8.0\contosoPet.runtimeconfig.json
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Concept\ConditionalBranchingLooping\contosoPet\bin\Debug\net8.0\contosoPet.dll
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Concept\ConditionalBranchingLooping\contosoPet\bin\Debug\net8.0\contosoPet.pdb
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Concept\ConditionalBranchingLooping\contosoPet\obj\Debug\net8.0\contosoPet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Concept\ConditionalBranchingLooping\contosoPet\obj\Debug\net8.0\contosoPet.AssemblyInfoInputs.cache
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Concept\ConditionalBranchingLooping\contosoPet\obj\Debug\net8.0\contosoPet.AssemblyInfo.cs
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Concept\ConditionalBranchingLooping\contosoPet\obj\Debug\net8.0\contosoPet.csproj.CoreCompileInputs.cache
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Concept\ConditionalBranchingLooping\contosoPet\obj\Debug\net8.0\contosoPet.sourcelink.json
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Concept\ConditionalBranchingLooping\contosoPet\obj\Debug\net8.0\contosoPet.dll
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Concept\ConditionalBranchingLooping\contosoPet\obj\Debug\net8.0\refint\contosoPet.dll
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Concept\ConditionalBranchingLooping\contosoPet\obj\Debug\net8.0\contosoPet.pdb
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Concept\ConditionalBranchingLooping\contosoPet\obj\Debug\net8.0\contosoPet.genruntimeconfig.cache
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Concept\ConditionalBranchingLooping\contosoPet\obj\Debug\net8.0\ref\contosoPet.dll

@@ -1,6 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.Globalization;
 using System.Numerics;
+using System.Security.Cryptography;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace controlFlow
 {
@@ -95,15 +97,17 @@ numbers and display it on the console.\n");
            
            //While loop with Summation
 
-            int sum = 0;
+            //int sum = 0;
+
             while (true)
             {
+
                 Console.WriteLine("Enter a Number or OK to Exit!!");
                 var input2 = Console.ReadLine();
                 
                 Console.WriteLine(@"You Entered : " + input2);
                    
-                if (String.IsNullOrWhiteSpace(input2)) // if there is an input due !
+               if (System.String.IsNullOrWhiteSpace(input2)) // if there is an input due !
                 {
                   continue;
                 } else if (input2.ToUpper() == "OK")
@@ -191,17 +195,72 @@ separated by comma. Find the maximum of the numbers and display it on the consol
 if the user enters “5, 3, 8, 1, 4"", the program should display 8.\n");
             Console.WriteLine("*-*-*-*-*-*-*-*-*-*-*-*-*-*\n");
 
-            var inputSeries = new string[25];
 
-            string input="";
-            for (int i = 0; i < 20; i++)
+            Console.WriteLine("Enter number in Series!\n");
+
+            var series = new List<string>();
+
+
+            var maxNum = 0;
+
+
+
+            var userInput = Console.ReadLine() ?? ""; //The null-coalescing operator ??
+            var userInputSplit = userInput.Split(","); // 
+
+            
+             //* *******LIST SOLUTION WITH FOREACH APPROACH*******
+             /*
+
+            foreach ( var num in userInputSplit )
             {
-                //input = Convert.ToInt32(Console.ReadLine());
-                input = (Console.ReadLine());
-                inputSeries[i] = (input);
-            }
-                Console.WriteLine(inputSeries);
+                var number = Convert.ToInt32(num);
 
+                if (number > maxNum)
+                {
+                    maxNum = number;
+                }
+            }
+
+            Console.WriteLine($"The Maximum Number {maxNum} " );
+           
+            */
+
+            /*
+             * *******STRING ARRAY SOLUTION*******
+            string[] numberStr = userInput.Split(',');
+
+            for (int i = 0; i < numberStr.Length; i++)
+            {
+                var number = Convert.ToInt32(numberStr[i].Trim());
+               // series.Add(number);
+                
+                if(number > maxNum) {
+                    maxNum = number;
+                }
+              Console.WriteLine("The Maximum Number is : " + maxNum);
+            */
+
+
+            //********LIST SOLUTION WITH FOR LOOP APPROACH*******
+
+            for (int i = 0; i < userInputSplit.Length; i++)
+            {
+                var number = Convert.ToInt32(userInputSplit[i]);
+                
+                if (number > maxNum)
+                {
+                    maxNum = number;
+                }
+            }
+                    Console.WriteLine($"The Maximum Number is : {maxNum}");
+            
+            Console.ReadLine();
+           
+
+
+
+        
 
         }
 

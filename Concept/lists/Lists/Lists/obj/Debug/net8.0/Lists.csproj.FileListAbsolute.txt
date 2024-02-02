@@ -1,0 +1,15 @@
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Concept\lists\Lists\Lists\bin\Debug\net8.0\Lists.exe
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Concept\lists\Lists\Lists\bin\Debug\net8.0\Lists.deps.json
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Concept\lists\Lists\Lists\bin\Debug\net8.0\Lists.runtimeconfig.json
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Concept\lists\Lists\Lists\bin\Debug\net8.0\Lists.dll
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Concept\lists\Lists\Lists\bin\Debug\net8.0\Lists.pdb
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Concept\lists\Lists\Lists\obj\Debug\net8.0\Lists.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Concept\lists\Lists\Lists\obj\Debug\net8.0\Lists.AssemblyInfoInputs.cache
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Concept\lists\Lists\Lists\obj\Debug\net8.0\Lists.AssemblyInfo.cs
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Concept\lists\Lists\Lists\obj\Debug\net8.0\Lists.csproj.CoreCompileInputs.cache
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Concept\lists\Lists\Lists\obj\Debug\net8.0\Lists.sourcelink.json
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Concept\lists\Lists\Lists\obj\Debug\net8.0\Lists.dll
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Concept\lists\Lists\Lists\obj\Debug\net8.0\refint\Lists.dll
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Concept\lists\Lists\Lists\obj\Debug\net8.0\Lists.pdb
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Concept\lists\Lists\Lists\obj\Debug\net8.0\Lists.genruntimeconfig.cache
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Concept\lists\Lists\Lists\obj\Debug\net8.0\ref\Lists.dll

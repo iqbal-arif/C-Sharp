@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Drill",
+    "\\Drill\\controlFlow",
+    "\\Drill\\controlFlow\\ConsoleApp1"
   ],
+  "SelectedNode": "\\Drill\\controlFlow\\ConsoleApp1\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
