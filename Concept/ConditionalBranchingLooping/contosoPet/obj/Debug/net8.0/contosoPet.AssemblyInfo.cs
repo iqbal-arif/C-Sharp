@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("contosoPet")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b5704c0f2bdd22ce5a5aac0ea66faed4d975e6a4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+05a33a994e42ea0a6958717f79ee71a500bce5f5")]
 [assembly: System.Reflection.AssemblyProductAttribute("contosoPet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("contosoPet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
