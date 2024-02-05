@@ -1,24 +1,16 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Text Summarisation!");
+﻿using summarisationText;
 
-var sentences = "This is going to be a very extra ordinary perfecdt example of a very very very long paragrah.";
-const int maxLength = 24;
+internal class Program
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine("Text Summarisation!");
 
-if (sentences.Length < maxLength){
-    Console.WriteLine(sentences);
-}else{
-    var words = sentences.Split(" ");
-    var totalCharacters = 0;
-    var summaryWords = new List<string>();
+        var sentences = "This is going to be a very extra ordinary perfecdt example of a very very very long paragrah.";
 
-    foreach (var word in words){
-        summaryWords.Add(word);
-        // Console.WriteLine(word.Length);
-        totalCharacters += word.Length;
-        if (totalCharacters > maxLength){
-            break;
-        }
+        var summary = StringUtility.SummerizeText(sentences,25);
+        Console.WriteLine(summary);
+
     }
-    var summary = string.Join(" ", summaryWords) + "...";
-    Console.WriteLine(summary);
+    
 }
