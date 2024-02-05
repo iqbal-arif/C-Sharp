@@ -183,3 +183,50 @@ numbers += 2;
 A4: 3
 Good job!
 The first time number is 0, so it's less than 5. Then, it'll be incremented by 2, so it's still less than 5. Next, it'll be 4, so the loop be executed one more time. Finally, it becomes 6 and because it's greater than 5, the loop will not be executed.
+
+
+**String and StringBuilder**
+***
+Q1: What will be the output of this code?
+```
+var name = "Mosh";
+
+name[0] = "N";
+
+Console.WriteLine(name);
+```
+A1: This code will not get compiled.
+
+Q2: What will be the output of this code?
+```
+var name = "Mosh";
+
+name.ToUpper();
+
+Console.WriteLine(name);
+```
+A2: Mosh
+
+Good job!
+Since strings are immutable, ToUpper() will return a new string with all uppercase letters. But we've not stored the result here, and since the name variable will be unchanged, the output will be Mosh.
+
+Q3: What will be the value of result?
+```
+var name = " ";
+
+var result = String.IsNullOrEmpty(name);
+```
+A3: false
+Good job!
+Name has one whitespace character, so it's neither null nor empty. 
+
+Q4: What will be the output of this code?
+
+var builder = new StringBuilder("Mosh");
+
+var index = builder.IndexOf('M')
+
+Console.WriteLine(index);
+
+A4: Good job!
+StringBuilder only provides methods for fast and efficient manipulation of strings. It doesn't have any methods to search in strings. If you need to search in a string that you're building using a StringBuilder, you need to cover it to a string first: builder.ToString().IndexOf('M').

@@ -38,6 +38,10 @@ class Program
 
         Console.WriteLine(builderTwo);
 
+        var name ="Mosh";
+    
+        Console.WriteLine(name.ToUpper());
+
 
     }
 }
