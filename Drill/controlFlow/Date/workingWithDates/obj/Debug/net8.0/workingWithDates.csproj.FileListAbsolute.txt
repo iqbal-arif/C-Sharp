@@ -1,0 +1,15 @@
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Drill\controlFlow\Date\workingWithDates\obj\Debug\net8.0\workingWithDates.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Drill\controlFlow\Date\workingWithDates\obj\Debug\net8.0\workingWithDates.AssemblyInfoInputs.cache
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Drill\controlFlow\Date\workingWithDates\obj\Debug\net8.0\workingWithDates.AssemblyInfo.cs
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Drill\controlFlow\Date\workingWithDates\obj\Debug\net8.0\workingWithDates.csproj.CoreCompileInputs.cache
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Drill\controlFlow\Date\workingWithDates\obj\Debug\net8.0\workingWithDates.sourcelink.json
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Drill\controlFlow\Date\workingWithDates\bin\Debug\net8.0\workingWithDates.exe
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Drill\controlFlow\Date\workingWithDates\bin\Debug\net8.0\workingWithDates.deps.json
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Drill\controlFlow\Date\workingWithDates\bin\Debug\net8.0\workingWithDates.runtimeconfig.json
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Drill\controlFlow\Date\workingWithDates\bin\Debug\net8.0\workingWithDates.dll
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Drill\controlFlow\Date\workingWithDates\bin\Debug\net8.0\workingWithDates.pdb
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Drill\controlFlow\Date\workingWithDates\obj\Debug\net8.0\workingWithDates.dll
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Drill\controlFlow\Date\workingWithDates\obj\Debug\net8.0\refint\workingWithDates.dll
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Drill\controlFlow\Date\workingWithDates\obj\Debug\net8.0\workingWithDates.pdb
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Drill\controlFlow\Date\workingWithDates\obj\Debug\net8.0\workingWithDates.genruntimeconfig.cache
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Drill\controlFlow\Date\workingWithDates\obj\Debug\net8.0\ref\workingWithDates.dll

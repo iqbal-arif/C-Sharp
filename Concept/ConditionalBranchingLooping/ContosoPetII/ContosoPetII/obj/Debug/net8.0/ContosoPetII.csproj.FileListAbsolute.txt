@@ -1,0 +1,15 @@
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Concept\ConditionalBranchingLooping\ContosoPetII\ContosoPetII\bin\Debug\net8.0\ContosoPetII.exe
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Concept\ConditionalBranchingLooping\ContosoPetII\ContosoPetII\bin\Debug\net8.0\ContosoPetII.deps.json
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Concept\ConditionalBranchingLooping\ContosoPetII\ContosoPetII\bin\Debug\net8.0\ContosoPetII.runtimeconfig.json
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Concept\ConditionalBranchingLooping\ContosoPetII\ContosoPetII\bin\Debug\net8.0\ContosoPetII.dll
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Concept\ConditionalBranchingLooping\ContosoPetII\ContosoPetII\bin\Debug\net8.0\ContosoPetII.pdb
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Concept\ConditionalBranchingLooping\ContosoPetII\ContosoPetII\obj\Debug\net8.0\ContosoPetII.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Concept\ConditionalBranchingLooping\ContosoPetII\ContosoPetII\obj\Debug\net8.0\ContosoPetII.AssemblyInfoInputs.cache
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Concept\ConditionalBranchingLooping\ContosoPetII\ContosoPetII\obj\Debug\net8.0\ContosoPetII.AssemblyInfo.cs
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Concept\ConditionalBranchingLooping\ContosoPetII\ContosoPetII\obj\Debug\net8.0\ContosoPetII.csproj.CoreCompileInputs.cache
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Concept\ConditionalBranchingLooping\ContosoPetII\ContosoPetII\obj\Debug\net8.0\ContosoPetII.sourcelink.json
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Concept\ConditionalBranchingLooping\ContosoPetII\ContosoPetII\obj\Debug\net8.0\ContosoPetII.dll
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Concept\ConditionalBranchingLooping\ContosoPetII\ContosoPetII\obj\Debug\net8.0\refint\ContosoPetII.dll
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Concept\ConditionalBranchingLooping\ContosoPetII\ContosoPetII\obj\Debug\net8.0\ContosoPetII.pdb
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Concept\ConditionalBranchingLooping\ContosoPetII\ContosoPetII\obj\Debug\net8.0\ContosoPetII.genruntimeconfig.cache
+C:\Users\DevPC\Documents\GITHUB\C-Sharp\Concept\ConditionalBranchingLooping\ContosoPetII\ContosoPetII\obj\Debug\net8.0\ref\ContosoPetII.dll
