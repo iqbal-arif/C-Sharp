@@ -4,8 +4,6 @@
 2. Directory, DirectoryInfo
 3. Path
 
-
-
 **1. File, FileInfo**
 ***
 Provides METHODS for Creating, Copying, Deleting, Moving, and Opening of files.
