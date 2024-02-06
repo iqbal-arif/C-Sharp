@@ -230,3 +230,15 @@ Console.WriteLine(index);
 
 A4: Good job!
 StringBuilder only provides methods for fast and efficient manipulation of strings. It doesn't have any methods to search in strings. If you need to search in a string that you're building using a StringBuilder, you need to cover it to a string first: builder.ToString().IndexOf('M').
+
+
+**Working With Files**
+
+Q1: How can we delete a file in C#?
+A1: File.Delete(path).
+
+
+Q2: What statement is wrong about File and FileInfo classes?
+A2. Every time we use one of the operations of FileInfo, some security checking is done by operating system.
+Good job!
+Security checking is done only during instantiation of FileInfo, and that's why it's more efficient than File if you're executing multiple operations on a given file. Because security checking will be done only once. 
