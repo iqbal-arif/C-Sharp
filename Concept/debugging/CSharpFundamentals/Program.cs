@@ -12,6 +12,7 @@ namespace CSharpFundamentals
 
             foreach (var number in smallests)
                 Console.WriteLine(number);
+            Console.ReadLine();
         }
 
         public static List<int> GetSmallests(List<int> list, int count)
@@ -34,7 +35,7 @@ namespace CSharpFundamentals
             var min = list[0];
             for (var i = 1; i < list.Count; i++)
             {
-                if (list[i] > min)
+                if (list[i] < min)
                     min = list[i];
             }
             return min;
