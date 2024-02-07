@@ -135,3 +135,65 @@ var person = new Person
                             LastName = "Iqbal"
                         };
 
+**Methods**
+
+1. Signature of Methods
+2. Method Overloading
+3. Params Modifier
+4. Ref Modifier
+5. Out Modifier
+
+```
+            //Signature of Methods
+            //Move;int x, int y
+            //Overloading: same name but different signatures
+                public class Point
+            {
+                public void Move(int x, int y) { }
+                public void Move(Point newLocation) { }
+                public void Move(Point newLocation, int speed) { }
+
+            }
+        //Method with varying nubmer of parameters
+        //Wrong way of doing it
+        public class Calculator
+            {
+                public int Add(int n1, int n2) { return n1; }
+                public int Add(int n1, int n2, int n3) { return n1; }
+                public int Add(int n1, int n2, int n3, int n4) { return n1; }
+            }
+
+        //The Prams Modifier
+            public class Calculator2
+            {
+                public int Add(params int[] nubmers) { }
+            }
+
+                var result = calculator.Add(new int[] { 1, 2, 3, 4, });
+                var result = calculator.Add(1, 2, 3, 4);
+
+        //The Ref Modifier
+
+        public class Weirdo
+    {
+        public void DoAWeirdoThing(ref int a)
+        {
+            a += 2;
+        }
+    }
+    var a = 1;
+    weirdo.DoAWeirdoThing(ref a);
+
+        //The Out Modifier
+
+        public class MyClass
+    {
+        public void MyMethod(out int result)
+        {
+            result = 1;
+        }
+    }
+    int a;
+    MyClass.MyMethod(out a);
+
+```
