@@ -25,28 +25,29 @@ public class Person
 }
 ```
 **Object Declaration**
-
+```
 Person person  = new Person();
 
 //Shortform of writing Object
 var person = new Person();
-
+```
 **Using Objects**
-
+```
 var person = new Person();
 person.Name = "Mosh";
 person.Introduce();
-
+```
 **Class Methods**
 
 1. Instance: accessible from an object
+```
 var person = new Person();
 person.Introduce();
-
+```
 2. Stati: accessible from the class.
-
+```
 Console.WriteLine();
-
+```
 Why use static members?
 
 1. To represent concepts taht are ***singleton***
@@ -56,12 +57,12 @@ Why use static members?
 
 
 **Declaring Static Members**
-
+```
 public class Person
 {
     public static int PeopleCount = 0;
 }
-
+```
 **Constructors**
 
 A method that is called when an instance of class is created.
@@ -77,7 +78,8 @@ public class Customer
 
     }
 }
-````
+```
+
 1. The Constructor name shall be same as class
 2. Default values for non-parameter cosntructor are
     a. numbers = 0
@@ -97,9 +99,39 @@ public class Customer
 }
 
 ```
-
 **Constructor**
-
+```
 var customer = new Customer("John");
+```
 
 ***Constructor Overloading***
+***Different Signauter Method:***
+identifies as unique return type, name and nubmer of its paramters.
+```
+  public class Customer
+    {
+        public Customer() { }
+        public Customer(string name) { }
+        public Customer (int id, string name) { }
+    }
+```
+
+**Object Initialzer**
+A systax for quickly initialising an object without the need to call one of its constructors.
+
+To Avoid creating multiple constructors
+
+public class Person
+        { 
+            public Person(int id) { }
+            public Person(int id, string firstName) { }
+            public Person(int id, string firstName, string lastName) { }
+            public Person(int id, DateTime birthdate) { }
+        }
+**Object Initialzer**
+var person = new Person
+                        {
+                            FirstName = "Arif",
+                            LastName = "Iqbal"
+                        };
+

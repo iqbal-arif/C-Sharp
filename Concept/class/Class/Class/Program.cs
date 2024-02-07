@@ -32,8 +32,19 @@
         var person2 = Person.Parse("Mosh");
         person2.Introduce("ArifIqbal");
 
+        /******************************************************************/
+        /******************************************************************/
+        /******************************************************************/
+
         ///Class Customer
-        var customer = new Customer(1,"Arif");
+        var customer = new Customer();
+        customer.Name = "Arif";
+        customer.Id = 1;
+
+        var order = new Order();
+        customer.Orders.Add(order);
+
+
         Console.WriteLine(customer.Id);
         Console.WriteLine(customer.Name);
 
@@ -41,8 +52,7 @@
 
 
 
+
     }
-
-
 
 }
