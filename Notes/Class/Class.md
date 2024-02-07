@@ -197,3 +197,34 @@ var person = new Person
     MyClass.MyMethod(out a);
 
 ```
+
+**Fields**
+
+1. Initialzation fields
+2. Read-only fields.
+
+     public class Customer
+    {
+        List<Order> Orders;
+
+        //Use Constructors only when we need to initialize our Fields based on value passed from the outside.
+        //Constructor has no parameters
+        public Customer()
+        {
+            Orders = new List<Order>();
+        }
+    }
+
+    // Here is the Another way of doing it correctly
+    // initializing Field WITHOUT any CONSTRUCTOR
+    public class Customer
+    {
+        List<Order> Orders = new List<Order>();
+    }
+
+    //Read-Only Fields
+
+    public class Customer
+    {
+        readonly List<Order> Orders = new List<Order>();
+    }
