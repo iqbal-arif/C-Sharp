@@ -82,4 +82,24 @@ public class Customer
 2. Default values for non-parameter cosntructor are
     a. numbers = 0
     b. boolean = false
-    c.
+    c. string = null
+    d. char = empty
+
+```
+public class Customer
+{
+    public string Name;
+
+    public Customer(string name)
+    {
+            this.Name = name;
+    }
+}
+
+```
+
+**Constructor**
+
+var customer = new Customer("John");
+
+***Constructor Overloading***

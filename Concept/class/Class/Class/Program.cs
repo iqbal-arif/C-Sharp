@@ -1,4 +1,4 @@
-﻿internal class Program
+﻿partial class Program
 {
 
     public class Person
@@ -11,13 +11,14 @@
         }
 
         //Static Method
-        public static   Person Parse(string str)
+        public static Person Parse(string str)
         {
             var person = new Person();
             person.Name = str;
             return person;
         }
     }
+
      static void Main(string[] args)
     {
         Console.WriteLine("Class!\n");
@@ -30,5 +31,18 @@
         //Static Method of Class Person
         var person2 = Person.Parse("Mosh");
         person2.Introduce("ArifIqbal");
+
+        ///Class Customer
+        var customer = new Customer(1,"Arif");
+        Console.WriteLine(customer.Id);
+        Console.WriteLine(customer.Name);
+
+
+
+
+
     }
+
+
+
 }
