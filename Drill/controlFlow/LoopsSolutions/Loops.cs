@@ -88,7 +88,7 @@ namespace CSharp1Exercises.ControlFlow
         public void Exercise5()
         {
             Console.Write("Enter commoa separated numbers: ");
-            var input = Console.ReadLine();
+            var input = Console.Read();
 
             var numbers = input.Split(',');
 
@@ -102,7 +102,7 @@ namespace CSharp1Exercises.ControlFlow
                     max = number;
             }
 
-            Console.WriteLine("Max is " + max);
+            Console.Write("Max is " + max);
 
         }
     }
