@@ -29,7 +29,7 @@ namespace CSharp1Exercises.ControlFlow
             while (true)
             {
                 Console.Write("Enter a number (or 'ok' to exit): ");
-                var input = Console.ReadLine();
+                var input = Console.Read();
 
                 if (input.ToLower() == "ok")
                     break;
@@ -47,7 +47,7 @@ namespace CSharp1Exercises.ControlFlow
         public void Exercise3()
         {
             Console.Write("Enter a number: ");
-            var number = Convert.ToInt32(Console.ReadLine());
+            var number = Convert.ToInt32(Console.Read());
 
             var factorial = 1;
             for (var i = 1; i <= number; i++)
@@ -68,7 +68,7 @@ namespace CSharp1Exercises.ControlFlow
             for (var i = 0; i < 4; i++)
             {
                 Console.Write("Guess the secret number: ");
-                var guess = Convert.ToInt32(Console.ReadLine());
+                var guess = Convert.ToInt32(Console.Read());
 
                 if (guess == number)
                 {
